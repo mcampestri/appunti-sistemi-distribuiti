@@ -28,7 +28,6 @@
       String assignedTo;
     }
     ```
-
 - Utilizzo annotazione
     ```java
     @GroupTODO(severity=GroupTODO.Severity.CRITICAL, item="item name", assignedTo="nome persona")
@@ -47,7 +46,6 @@
         String owner();
     }
     ```
-
 - Annotation 2
     ```java
     public @interface License {
@@ -57,7 +55,6 @@
         boolean redistributable();
     }
     ```
-
 - Utilizzo Annotation 2
     ```java
     @License(
@@ -80,7 +77,6 @@
     Class c = Sub.class;
     boolean inProgress = c.isAnnotationPresent(InProgress.class);
     ```
-
 - Verifica della presenza di una annotazione in un metodo
     ```java
     Class c = ExampleClass.class;
