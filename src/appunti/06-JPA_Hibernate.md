@@ -29,13 +29,13 @@
     }
     ```
 - Eager loading
-```java
-@OneToMany(cascade=ALL, mappedBy=“owner”, fetch=EAGER)
-```
+    ```java
+    @OneToMany(cascade=ALL, mappedBy=“owner”, fetch=EAGER)
+    ```
 - Lazy loading
-```java
-@OneToMany(cascade=ALL, mappedBy=“owner”, fetch=LAZY)
-```
+    ```java
+    @OneToMany(cascade=ALL, mappedBy=“owner”, fetch=LAZY)
+    ```
 
 ---
 
