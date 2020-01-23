@@ -1,4 +1,4 @@
-# 06 - JPA
+# 06 - JPA e Hibernate
 
 
 ### Entity
