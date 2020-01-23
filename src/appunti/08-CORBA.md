@@ -3,7 +3,7 @@
 
 ### Definizione componenti CORBA
 - Esempio componente
-    ```c_pp
+    ```cpp
     // IDL 3
     interface rate_control
     {
@@ -13,7 +13,7 @@
     component RateGen supports rate_control {};
     ```
 - CCM Home
-    ```c_pp
+    ```cpp
     // IDL 3
     home RateGenHome manages RateGen
     {
@@ -21,7 +21,7 @@
     };
     ```
 - Facet
-    ```c_pp
+    ```cpp
     // IDL 3
     interface position
     {
@@ -35,7 +35,7 @@
     };
     ```
 - Receptacle
-    ```c_pp
+    ```cpp
     // IDL 3
     component NavDisplay
     {
@@ -44,7 +44,7 @@
     };
     ```
 - Sorgente di eventi
-    ```c_pp
+    ```cpp
     // IDL 3
     component RateGen
     {
@@ -54,7 +54,7 @@
     };
     ```
 - Sorgente di eventi
-    ```c_pp
+    ```cpp
     // IDL 3
     component RateGen
     {
@@ -64,7 +64,7 @@
     };
     ```
 - Sink di eventi
-    ```c_pp
+    ```cpp
     // IDL 3
     component NavDisplay
     {
@@ -73,7 +73,7 @@
     };
     ```
 - Attributi
-    ```c_pp
+    ```cpp
     // IDL 3
     typedef unsigned long rateHz;
     component RateGen supports rate_control
@@ -87,7 +87,7 @@
 
 ### Navigation e Introspection componenti
 - Interfacce di Navigation
-    ```c_pp
+    ```cpp
     CORBA::ORB_var orb = CORBA::ORB_init (argc, argv);
     
     // Get the NameService reference
