@@ -2,11 +2,11 @@
 
 
 ### Categorie di Annotation
-- Marker annotation:
+- Marker annotation
     ```java
     @AnnotationName
     ```
-- Single value annotation:
+- Single value annotation
     ```java
     @AnnotationName("value")
     ```
