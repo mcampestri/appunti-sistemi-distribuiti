@@ -67,7 +67,7 @@
     producer.setPriority(7);
     
     // In alternativa, all'invio di un messaggio
-    producer.send(message, DeliveryMode. NON_PERSISTENT, 7, 10000);
+    producer.send(message, DeliveryMode.NON_PERSISTENT, 7, 10000);
     ```
 - Time to live
     ```java
