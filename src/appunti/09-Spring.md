@@ -5,19 +5,25 @@
 - Dependency Injection a livello di costruttore
     ```java
     public class ConstructorInjection {
+    
         private Dependency dep;
+        
         public ConstructorInjection(Dependency dep) {
             this.dep = dep;
         }
+        
     }
     ```
 - Dependency Injection a livello di costruttore
     ```java
     public class SetterInjection {
+    
         private Dependency dep;
+        
         public void setMyDependency(Dependency dep) {
             this.dep = dep;
         }
+        
     }
     ```
 - XML Bean Factory
